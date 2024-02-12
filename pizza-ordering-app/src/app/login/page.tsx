@@ -13,7 +13,7 @@ const LoginPage = () => {
         </div>
         {/*FORM CONTAINER*/}
         <div className='p-10 flex flex-col gap-8 md:w-1/2'>
-          <h1 className='font-bold text-xl'>Welcome</h1>
+          <h1 className='font-bold text-xl xl:text-3xl'>Welcome</h1>
           <p>Log into your accout or create a new one using social buttons</p>
           <button className='flex gap-4 p-4 ring-1 ring-orange-100 rounded-md'>
             <Image src={'/google.png'} alt='' width={20} height={20}></Image>
@@ -23,7 +23,7 @@ const LoginPage = () => {
             <Image src={'/facebook (1).png'} alt='' width={20} height={20}></Image>
             <span>Sign in with Facebook</span>
           </button>
-          <p className='text-sm'>Have a problem? <Link className='underline' href='/'>Contact us</Link></p>
+          <p className='text-sm'>Have a problem? <Link className='underline text-blue-700' href='/'>Contact us</Link></p>
         </div>
       </div>
     </div>
