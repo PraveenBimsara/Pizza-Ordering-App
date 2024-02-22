@@ -23,7 +23,7 @@ const LoginPage = () => {
             <Image src={'/facebook (1).png'} alt='' width={20} height={20}></Image>
             <span>Sign in with Facebook</span>
           </button>
-          <p className='text-sm'>Have a problem? <Link className='underline text-blue-700' href='/'>Contact us</Link></p>
+          <p className='text-sm'>Have a problem? <Link className='underline text-blue-700 hover:text-blue-900' href='/'>Contact us</Link></p>
         </div>
       </div>
     </div>

@@ -56,7 +56,7 @@ function CartPage() {
                 <span className=''>TOTAL(INCL. VAT)</span>
                 <span className='font-bold'>$81.70</span>
             </div>
-            <button className='bg-red-700 text-white p-3 rounded-md w-1/2 self-end'>CHECKOUT</button>
+            <button className='bg-red-700 text-white p-3 rounded-md w-1/2 self-end hover:bg-yellow-500'>CHECKOUT</button>
         </div>
     </div>
   )

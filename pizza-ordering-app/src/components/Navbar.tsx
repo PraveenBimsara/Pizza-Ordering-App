@@ -10,9 +10,9 @@ function Navbar() {
     <div className='h-12 text-red-700 font-bold p-4 flex items-center justify-between border-b-2 border-b-red-700 uppercase md:h-24 lg:px-20 xl:px-40'>
         {/*LEFT LINKS*/}
         <div className='hidden md:flex gap-4 flex-1'>
-            <Link href={''} className='border-b-2 border-transparent hover:border-red-700'>Home</Link>
-            <Link href={'/menu'} className='border-b-2 border-transparent hover:border-red-700'>Menu</Link>
-            <Link href={''} className='border-b-2 border-transparent hover:border-red-700'>Contact</Link>
+            <Link href={''} className='hover:text-yellow-500'>Home</Link>
+            <Link href={'/menu'} className='hover:text-yellow-500'>Menu</Link>
+            <Link href={''} className='hover:text-yellow-500'>Contact</Link>
         </div>
         {/*LOGO*/}
         <div className='text-4xl md:font-bold flex-1 md:text-center'>
@@ -28,9 +28,9 @@ function Navbar() {
                 <Image src='/phone.png' alt='' width={20} height={20}></Image>
                 <span className='text-white'>+94 785 890 185</span>
             </div>
-           {! user ? (<Link href={'/login'} className='border-b-2 border-transparent hover:border-red-700'>Login</Link>
+           {! user ? (<Link href={'/login'} className='hover:text-yellow-500'>Login</Link>
   ) : (
-            <Link href={'/orders'} className='border-b-2 border-transparent hover:border-red-700'>Orders</Link>
+            <Link href={'/orders'} className='hover:text-yellow-500'>Orders</Link>
   )}
             <CartIcon/>
         </div>

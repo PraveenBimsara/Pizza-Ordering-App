@@ -43,7 +43,7 @@ useEffect(()=>{
             </div>
           </div>
           {/*CART BUTTON*/}
-          <button className='uppercase w-56 bg-red-700 text-white p-3 ring-1 ring-red-700'>Add to Cart</button>
+          <button className='uppercase w-56 bg-red-700 text-white p-3 ring-1 ring-red-700 hover:bg-yellow-500'>Add to Cart</button>
         </div>
     </div>
   )

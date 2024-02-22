@@ -12,7 +12,7 @@ function Offer() {
         <p className='text-white xl:text-xl'>Progressively simplify effective e-toilers and
         process-centric methods of empowerment. Quickly pontificate parallel.</p>
         <CountDown/>
-        <button className='bg-red-700 text-white rounded-md py-3 px-6'>Order Now</button>
+        <button className='bg-red-700 text-white rounded-md py-3 px-6 hover:bg-yellow-500'>Order Now</button>
       </div>
       {/*IMAGE CONTAINER*/}
       <div className='relative flex-1 w-full md:h-full'>

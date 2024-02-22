@@ -17,9 +17,9 @@ function Menu() {
   return (
     <div>
         {! open ? (
-        <Image src="/open.png" alt="" width={20} height={20} onClick={()=>setOpen(true)}></Image>
+        <Image src="/open.png" alt="" width={20} height={20} onClick={()=>setOpen(true)} className='cursor-pointer'></Image>
         ) : (
-        <Image src="/close.png" alt="" width={20} height={20} onClick={()=>setOpen(false)}></Image>
+        <Image src="/close.png" alt="" width={20} height={20} onClick={()=>setOpen(false)} className='cursor-pointer'></Image>
         )}
         {open &&(
         <div className='bg-red-700 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex flex-col gap-8 items-center justify-center text-3xl z-10'>
@@ -28,11 +28,11 @@ function Menu() {
                     {item.title}</Link>
             ))}
             {! user ?(
-            <Link href={'/login' } onClick={()=>setOpen(false)}>Login</Link> 
+            <Link href={'/login' } onClick={()=>setOpen(false)} className='hover:text-yellow-500'>Login</Link> 
             ) : (
-            <Link href={'/orders'} onClick={()=>setOpen(false)}>Orders</Link>
+            <Link href={'/orders'} onClick={()=>setOpen(false)} className='hover:text-yellow-500'>Orders</Link>
             )}
-            <Link href={'/cart'} onClick={()=>setOpen(false)}>
+            <Link href={'/cart'} onClick={()=>setOpen(false)} className='hover:text-yellow-500'>
                 <CartIcon/>
             </Link>
         </div>

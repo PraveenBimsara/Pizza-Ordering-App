@@ -10,7 +10,7 @@ const MenuPage = () => {
           <div className={`text-${category.color} w-1/2`}>
             <h1 className='uppercase font-bold text-3xl'>{category.title}</h1>
             <p className='text-sm my-4'>{category.desc}</p>
-            <button className={`2xl:block bg-${category.color} text-white py-2 px-4 rounded-md`}>Explore</button>
+            <button className={`2xl:block bg-${category.color} text-white py-2 px-4 rounded-md hover:bg-yellow-500`}>Explore</button>
           </div>
         </Link>
       ))}

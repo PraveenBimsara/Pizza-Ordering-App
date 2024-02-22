@@ -18,7 +18,7 @@ const CategoryPage = () => {
           <div className='flex items-center justify-between font-bold group'>
             <h1 className='text-xl uppercase p-2'>{item.title}</h1>
             <h2 className='group-hover:hidden text-xl'>${item.price}</h2>
-            <button className='hidden group-hover:block uppercase bg-red-700 text-white p-2 rounded-md'>Add to Cart</button>
+            <button className='hidden group-hover:block uppercase bg-red-700 text-white p-2 rounded-md hover:bg-yellow-500'>Add to Cart</button>
           </div>
         </Link>
       ))}
